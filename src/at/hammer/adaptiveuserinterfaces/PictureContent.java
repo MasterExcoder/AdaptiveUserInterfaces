@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ImageContent {
+public class PictureContent {
 	public static List<ImageItem> ITEMS = new ArrayList<ImageItem>();
 	public static Map<String, ImageItem> ITEM_MAP = new HashMap<String, ImageItem>();
 	static {

@@ -70,9 +70,9 @@ public class ItemListFragment extends ListFragment {
 		super.onCreate(savedInstanceState);
 
 		// TODO: replace with a real list adapter.
-		setListAdapter(new ArrayAdapter<ImageContent.ImageItem>(getActivity(),
+		setListAdapter(new ArrayAdapter<PictureContent.ImageItem>(getActivity(),
 				android.R.layout.simple_list_item_activated_1,
-				android.R.id.text1, ImageContent.ITEMS));
+				android.R.id.text1, PictureContent.ITEMS));
 	}
 
 	@Override
@@ -115,7 +115,7 @@ public class ItemListFragment extends ListFragment {
 
 		// Notify the active callbacks interface (the activity, if the
 		// fragment is attached to one) that an item has been selected.
-		mCallbacks.onItemSelected(ImageContent.ITEMS.get(position).id);
+		mCallbacks.onItemSelected(PictureContent.ITEMS.get(position).id);
 	}
 
 	@Override
